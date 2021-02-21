@@ -1,0 +1,92 @@
+*,
+*::after,
+*::before
+ {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100vh;
+    background: url(../images/bg.jpg);
+    background-repeat: no-repeat; /* не дублирорвать фон */
+    background-size: cover; /* растянуть фон на все пространство */
+    background-position: center center; /* привязать фон к низу по вертикали и к центру по горизонтали */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 46px;
+    margin-bottom: 240px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.logo {
+    margin-right: 34px;
+}
+
+.menu ul {
+    display: flex;
+}
+
+.menu a {
+    color: #fff;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Roboto;
+    text-decoration: none;
+}
+
+.menu li + li {
+    margin-left: 30px;
+}
+
+.slider {
+    /* display: flex; */
+}
+
+.item {
+    text-align: left;
+    color: #fff;
+    font-family: Roboto;
+}
+
+.item .title {
+    font-size: 120px;
+    line-height: 141px;
+    font-weight: 400;
+}
+
+.item .text {
+    width: 675px;
+    font-size: 36px;
+    line-height: 42px;
+    font-weight: 300;
+}
+
+.slick-list {
+    height: 270px;
+}
+
+.slick-dots {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+}
+
+.slick-dots button {
+    font-size: 0;
+    border: none;
+    padding: 0;
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 50%;
+    outline: none;
+}
