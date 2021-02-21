@@ -92,6 +92,7 @@
     background: #444;
     border-radius: 50%;
     outline: none;
+    cursor: pointer;
 }
 
 .slick-active button {
