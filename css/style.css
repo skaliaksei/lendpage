@@ -74,6 +74,7 @@
 
 .slick-list {
     height: 270px;
+    cursor: pointer;
 }
 
 .slick-dots {
