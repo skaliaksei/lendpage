@@ -1,1 +1,1 @@
-# lendpage
+# https://skaliaksei.github.io/lendpage/
