@@ -14,13 +14,14 @@
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1220px;
     margin: 0 auto;
 }
 
 .header {
     padding-top: 46px;
     margin-bottom: 240px;
+    margin-left: 20px;
     display: flex;
     justify-content: flex-start;
     align-items: flex-end;
@@ -47,6 +48,7 @@
 }
 
 .slider {
+    margin-left: 20px;
     /* display: flex; */
 }
 
@@ -61,6 +63,9 @@
     line-height: 141px;
     font-weight: 400;
 }
+.item .title-third {
+    font-size: 100px;
+}
 
 .item .text {
     width: 675px;
@@ -71,6 +76,7 @@
 
 .slick-list {
     height: 270px;
+    cursor: pointer;
 }
 
 .slick-dots {
@@ -84,9 +90,17 @@
     font-size: 0;
     border: none;
     padding: 0;
-    width: 20px;
-    height: 20px;
-    background: #fff;
+    width: 15px;
+    height: 15px;
+    background: #444;
     border-radius: 50%;
     outline: none;
+    cursor: pointer;
+}
+
+.slick-active button {
+    background-color: rgb(165, 165, 165);
+    width: 21px;
+    height: 21px;
+    border: solid 1px #fff;
 }
